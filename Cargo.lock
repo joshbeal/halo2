@@ -868,7 +868,7 @@ dependencies = [
  "group",
  "gumdrop",
  "halo2_legacy_pdqsort",
- "halo2curves 0.1.0 (git+https://github.com/scroll-tech/halo2curves?branch=v0.1.0)",
+ "halo2curves 0.1.0 (git+https://github.com/joshbeal/halo2curves?branch=joshbeal/dev-mira)",
  "lazy_static",
  "log",
  "maybe-rayon",
@@ -909,7 +909,7 @@ dependencies = [
 [[package]]
 name = "halo2curves"
 version = "0.1.0"
-source = "git+https://github.com/scroll-tech/halo2curves?branch=v0.1.0#112f5b9bf27f6b1708ba7d1c2fc14cb3c6e55604"
+source = "git+https://github.com/joshbeal/halo2curves?branch=joshbeal/dev-mira#2445c0b6585853fb094b18920cde1f03f7fda81a"
 dependencies = [
  "blake2b_simd",
  "bls12_381",
@@ -919,6 +919,7 @@ dependencies = [
  "maybe-rayon",
  "num-bigint",
  "num-traits",
+ "pairing",
  "pasta_curves",
  "paste",
  "rand",
